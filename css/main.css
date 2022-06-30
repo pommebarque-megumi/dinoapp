@@ -1,0 +1,211 @@
+.pictChange{
+	animation:imgfade 10s infinite;
+	opacity:0;
+	}
+    @keyframes imgfade{
+        0%{opacity:0;}
+        25%{opacity:1;}
+        50%{opacity:1;}
+        75%{opacity:1;}
+        100%{opacity:0;}
+        }
+#form{
+    position:absolute;
+    left:380px;
+    top:460px;
+    text-align:center;
+}
+form>button:hover{
+    opacity:70%;
+}
+#startBt{
+    margin-top:20px;
+    width:180px;
+    height:70px;
+    font-size:15px;
+    border-radius:10px;
+    background-color:lightblue;
+
+}
+.hide{
+    opacity:0%;
+}
+#container{
+    width:900px;
+    min-height:900px;
+}
+#pict{
+    margin:30px;
+    min-height:900px;
+    /*background-image:url(../images/back.jpg);*/
+    background-size:100% auto;
+    background-repeat:no-repeat;
+}
+.bt{
+    background:transparent;
+    border:none;
+    background-repeat:no-repeat;
+    margin:15px;
+    width:80px;
+    height:80px;
+    background-size:100%;
+}
+.bt:hover #startBt:hover{
+    opacity:70%;
+    cursor:pointer;
+}
+table{
+    position:absolute;
+    margin:10px;
+    width:220px;
+    padding:20px;
+    left:580px;
+    top:90px;
+    border:0.2px solid #00abb5;
+}
+td{
+    padding-left:10px;
+    font-size:16px;
+    color:#444;
+    border:0.2px solid #00abb5;
+}
+.secondBt{
+    height:40px;
+    margin-left:10px;
+}
+#meal{
+    background-image:url(../images/meal.png);
+    background-size:100%;
+}
+#brush{
+    background-image:url(../images/brush.png);
+    background-size:100%;
+}
+#boal{
+    background-image:url(../images/boal.png);
+    background-size:100%;
+}
+#deco{
+    background-image:url(../images/deco.png);
+    background-size:100%;
+}
+#dino{
+    width:100px;
+    position:absolute;
+    padding:20px;
+    left:380px;
+    top:390px;
+}
+#dino_baby{
+    position:absolute;
+    width:120px;
+    left:380px;
+    top:390px;
+}
+#dino_child{
+    position:absolute;
+    width:200px;
+    left:360px;
+    top:370px;
+}
+#dino_middle{
+    position:absolute;
+    width:300px;
+    left:300px;
+    top:300px;
+}
+#meat{
+    position:absolute;
+    left:310px;
+    top:480px;
+    width:80px;
+}
+#secondForm{
+    position:absolute;
+    left:100px;
+    top:100px;
+}
+#pict_brush{
+    position:absolute;
+    left:450px;
+    top:400px;
+    width:50px;
+}
+#pict_boal{
+    position:absolute;
+    left:300px;
+    top:430px;
+    width:100px;
+}
+#rafuresia{
+    position:absolute;
+    left:70px;
+    top:400px;
+    width:140px;
+}
+#ananas{
+    position:absolute;
+    width:100px;
+    top:430px;
+    left:740px;
+}
+#yatsude{
+    position:absolute;
+    width:160px;
+    top:100px;
+    left:70px;
+}
+#shida{
+    position:absolute;
+    width:90px;
+    top:430px;
+    left:200px;
+}
+.fuwafuwa {
+    -webkit-animation:fuwafuwa 1s infinite linear alternate;
+    animation:fuwafuwa 1s infinite linear alternate;
+    }
+    
+    @-webkit-keyframes fuwafuwa {
+    0% {-webkit-transform:translate(0, 0) rotate(-5deg);}
+    50% {-webkit-transform:translate(0, -5px) rotate(0deg);}
+    100% {-webkit-transform:translate(0, 0)rotate(5deg);}
+    }
+    
+    @keyframes fuwafuwa {
+    0% {transform:translate(0, 0) rotate(-5deg);}
+    50% {transform:translate(0, -5px) rotate(0deg);}
+    100% {transform:translate(0, 0)rotate(5deg);}
+    }
+.boalfuwafuwa {
+        -webkit-animation:fuwafuwa 2s infinite linear alternate;
+        animation:fuwafuwa 2s infinite linear alternate;
+        }
+        
+    @-webkit-keyframes boalfuwafuwa {
+        0% {-webkit-transform:translate(0, 0) rotate(-5deg);}
+        50% {-webkit-transform:translate(0, -5px) rotate(0deg);}
+        100% {-webkit-transform:translate(0, 0)rotate(5deg);}
+    }
+        
+    @keyframes boalfuwafuwa {
+        0% {transform:translate(0, 0) rotate(-5deg);}
+        50% {transform:translate(0, -5px) rotate(0deg);}
+        100% {transform:translate(0, 0)rotate(5deg);}
+    }
+    .buruburu {
+        -webkit-animation:buruburu 0.3s infinite linear alternate;
+        animation:buruburu 0.3s infinite linear alternate;
+    }
+    
+    @-webkit-keyframes buruburu {
+        0% {-webkit-transform:translate(0, 0) rotate(-3deg);}
+        50% {-webkit-transform:translate(0, -1px) rotate(0deg);}
+        100% {-webkit-transform:translate(0, 0)rotate(3deg);}
+    }
+    
+    @keyframes buruburu {
+        0% {transform:translate(0, 0) rotate(-3deg);}
+        50% {transform:translate(0, -1px) rotate(0deg);}
+        100% {transform:translate(0, 0)rotate(3deg);}
+    }
