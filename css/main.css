@@ -18,6 +18,10 @@
 form>button:hover{
     opacity:70%;
 }
+#startBt:hover{
+    opacity:70%;
+    cursor:pointer;
+}
 #startBt{
     margin-top:20px;
     width:180px;
@@ -50,7 +54,7 @@ form>button:hover{
     height:80px;
     background-size:100%;
 }
-.bt:hover #startBt:hover{
+.bt:hover{
     opacity:70%;
     cursor:pointer;
 }
